@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -shared -Wl,-soname,libdata_anaysis.so -o ../devel/lib/libdata_anaysis.so CMakeFiles/data_anaysis.dir/src/data_anaysis/data_anaysis.cpp.o 
