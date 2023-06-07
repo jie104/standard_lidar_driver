@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QuerySerial.srv;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QueryFirmwareVersion.srv;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QueryHardwareVersion.srv"
+services_str = "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QuerySerial.srv;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QueryFirmwareVersion.srv;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/srv/QueryHardwareVersion.srv"
 pkg_name = "ltme_node"
 dependencies_str = "std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

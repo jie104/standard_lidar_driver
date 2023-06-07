@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/precision_anaysis_node"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/precision_anaysis_node.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/standard_lidar_driver/precision_anaysis_node"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/standard_lidar_driver/precision_anaysis_node.pdb"
   "CMakeFiles/precision_anaysis_node.dir/src/data_anaysis/precision_anaysis.cpp.o"
 )
 

@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"ltme_node\"
 
-CXX_INCLUDES = -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/include -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/include -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/lib/ldcp_sdk/Sources/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/lib/ldcp_sdk/include 
+CXX_INCLUDES = -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/include -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/include -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/lib/ldcp_sdk/Sources/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/lib/ldcp_sdk/include 
 

@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "ltme_node")
-set(ltme_node_VERSION "1.0.0")
+set(ltme_node_VERSION "2.2.0")
 set(ltme_node_MAINTAINER "LitraTech <code@litratech.com>")
 set(ltme_node_PACKAGE_FORMAT "2")
 set(ltme_node_BUILD_DEPENDS "roscpp" "sensor_msgs" "message_generation" "std_msgs")

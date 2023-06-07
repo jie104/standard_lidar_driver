@@ -67,8 +67,8 @@ set(pepperl_fuchs_r2000_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(pepperl_fuchs_r2000_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000)
-  set(pepperl_fuchs_r2000_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel)
+  set(pepperl_fuchs_r2000_SOURCE_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/pepperl_fuchs/pepperl_fuchs_r2000)
+  set(pepperl_fuchs_r2000_DEVEL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel)
   set(pepperl_fuchs_r2000_INSTALL_PREFIX "")
   set(pepperl_fuchs_r2000_PREFIX ${pepperl_fuchs_r2000_DEVEL_PREFIX})
 else()

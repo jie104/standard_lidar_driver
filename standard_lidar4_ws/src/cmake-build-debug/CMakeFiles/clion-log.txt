@@ -1,27 +1,14 @@
-/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
--- The C compiler identification is GNU 9.4.0
--- The CXX compiler identification is GNU 9.4.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Using CATKIN_DEVEL_PREFIX: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel
+/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
+-- Using CATKIN_DEVEL_PREFIX: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel
 -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
 -- This workspace overlays: /opt/ros/noetic
 -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
 -- Using PYTHON_EXECUTABLE: /usr/bin/python3
 -- Using Debian Python package layout
--- Found PY_em: /usr/lib/python3/dist-packages/em.py  
 -- Using empy: /usr/lib/python3/dist-packages/em.py
 -- Using CATKIN_ENABLE_TESTING: ON
 -- Call enable_testing()
--- Using CATKIN_TEST_RESULTS_DIR: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/test_results
+-- Using CATKIN_TEST_RESULTS_DIR: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/test_results
 -- Forcing gtest/gmock from source, though one was otherwise available.
 -- Found gtest sources under '/usr/src/googletest': gtests will be built
 -- Found gmock sources under '/usr/src/googletest': gmock will be built
@@ -50,15 +37,15 @@ CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (c
 
 
 -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
--- Found Threads: TRUE  
 -- Using Python nosetests: /usr/bin/nosetests3
 -- catkin 0.8.10
 -- BUILD_SHARED_LIBS is on
 -- BUILD_SHARED_LIBS is on
 -- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--- ~~  traversing 7 packages in topological order:
+-- ~~  traversing 8 packages in topological order:
 -- ~~  - c200_lidar
 -- ~~  - lidar_detect
+-- ~~  - ltme_node
 -- ~~  - oradar_ros
 -- ~~  - pepperl_fuchs_r2000
 -- ~~  - sdkeli_klm_udp
@@ -77,6 +64,26 @@ CMake Deprecation Warning at lowcost_lidar_node/c200_lidar/CMakeLists.txt:1 (cma
 
 -- +++ processing catkin package: 'lidar_detect'
 -- ==> add_subdirectory(lidar_detect)
+-- +++ processing catkin package: 'ltme_node'
+-- ==> add_subdirectory(lowcost_lidar_node/ltme_node)
+CMake Deprecation Warning at lowcost_lidar_node/ltme_node/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- ltme_node: 0 messages, 3 services
+CMake Deprecation Warning at lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
 -- +++ processing catkin package: 'oradar_ros'
 -- ==> add_subdirectory(lowcost_lidar_node/oradar_ros)
 CMake Deprecation Warning at lowcost_lidar_node/oradar_ros/CMakeLists.txt:1 (cmake_minimum_required):
@@ -170,4 +177,4 @@ CMake Deprecation Warning at standard_lidar_driver/CMakeLists.txt:1 (cmake_minim
 -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug
+-- Build files have been written to: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug

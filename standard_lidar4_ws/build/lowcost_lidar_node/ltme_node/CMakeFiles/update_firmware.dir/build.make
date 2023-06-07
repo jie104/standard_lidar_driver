@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 # Include any dependencies generated for this target.
 include lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/depend.make
@@ -58,17 +58,17 @@ include lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/progress.mak
 include lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/flags.make
 
 lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/flags.make
-lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp
+lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o -c /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp
 
 lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/update_firmware.dir/src/update_firmware.cpp.i"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp > CMakeFiles/update_firmware.dir/src/update_firmware.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp > CMakeFiles/update_firmware.dir/src/update_firmware.cpp.i
 
 lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/update_firmware.dir/src/update_firmware.cpp.s"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp -o CMakeFiles/update_firmware.dir/src/update_firmware.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node/src/update_firmware.cpp -o CMakeFiles/update_firmware.dir/src/update_firmware.cpp.s
 
 # Object files for target update_firmware
 update_firmware_OBJECTS = \
@@ -77,24 +77,24 @@ update_firmware_OBJECTS = \
 # External object files for target update_firmware
 update_firmware_EXTERNAL_OBJECTS =
 
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/build.make
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ldcp_sdk.a
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: /usr/lib/x86_64-linux-gnu/libcrypto.so
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_firmware.dir/link.txt --verbose=$(VERBOSE)
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/build.make
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ldcp_sdk.a
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: /usr/lib/x86_64-linux-gnu/libcrypto.so
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware: lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/update_firmware.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/build: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware
+lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/build: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware
 
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/build
 
 lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -P CMakeFiles/update_firmware.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -P CMakeFiles/update_firmware.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/clean
 
 lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/update_firmware.dir/depend
 

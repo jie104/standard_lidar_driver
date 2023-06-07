@@ -1,4 +1,4 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+# Install script for directory: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -61,7 +61,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -73,7 +73,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -86,8 +86,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.bash"
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.bash"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.bash"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
@@ -101,8 +101,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.sh"
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.sh"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.sh"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
@@ -116,8 +116,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.zsh"
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.zsh"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/setup.zsh"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
@@ -130,19 +130,20 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/gtest/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/c200_lidar/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/pepperl_fuchs/pepperl_fuchs_r2000/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/pepperl_fuchs/dummy_slam_broadcaster/cmake_install.cmake")
-  include("/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/standard_lidar_driver/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/gtest/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/c200_lidar/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/ltme_node/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/pepperl_fuchs/pepperl_fuchs_r2000/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/pepperl_fuchs/dummy_slam_broadcaster/cmake_install.cmake")
+  include("/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/standard_lidar_driver/cmake_install.cmake")
 
 endif()
 
@@ -154,5 +155,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

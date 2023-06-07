@@ -67,8 +67,8 @@ set(standard_lidar_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(standard_lidar_driver_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver)
-  set(standard_lidar_driver_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel)
+  set(standard_lidar_driver_SOURCE_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/standard_lidar_driver)
+  set(standard_lidar_driver_DEVEL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel)
   set(standard_lidar_driver_INSTALL_PREFIX "")
   set(standard_lidar_driver_PREFIX ${standard_lidar_driver_DEVEL_PREFIX})
 else()

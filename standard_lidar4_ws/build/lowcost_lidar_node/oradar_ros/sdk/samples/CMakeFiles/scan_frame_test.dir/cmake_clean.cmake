@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/oradar_ros/scan_frame_test"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/oradar_ros/scan_frame_test.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/oradar_ros/scan_frame_test"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/oradar_ros/scan_frame_test.pdb"
   "CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.o"
 )
 

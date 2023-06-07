@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/hokuyo_node"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/standard_lidar_driver/hokuyo_node.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/standard_lidar_driver/hokuyo_node"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/standard_lidar_driver/hokuyo_node.pdb"
   "CMakeFiles/hokuyo_node.dir/src/lidar_driver_hokuyo.cpp.o"
 )
 

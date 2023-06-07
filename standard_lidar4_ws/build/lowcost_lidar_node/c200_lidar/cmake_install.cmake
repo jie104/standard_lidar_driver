@@ -1,8 +1,8 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar
+# Install script for directory: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidar.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidar.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c200_lidar/cmake" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidarConfig.cmake"
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidarConfig-version.cmake"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidarConfig.cmake"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/catkin_generated/installspace/c200_lidarConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c200_lidar" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/c200_lidar" TYPE FILE FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar/package.xml")
 endif()
 

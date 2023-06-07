@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug
 
 # Utility rule file for sdkeli_klm_udp_gencfg.
 
@@ -79,8 +79,8 @@ sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg: devel/lib/python3/dist-packages
 devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h: ../sdkeli_klm_udp/cfg/SDKeliKlm.cfg
 devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
 devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/SDKeliKlm.cfg: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/sdkeli_klm_udp/cfg/SDKeliKlmConfig.py"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp && ../catkin_generated/env_cached.sh /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/setup_custom_pythonpath.sh /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp/cfg/SDKeliKlm.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/share/sdkeli_klm_udp /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/include/sdkeli_klm_udp /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/sdkeli_klm_udp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/SDKeliKlm.cfg: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/sdkeli_klm_udp/cfg/SDKeliKlmConfig.py"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp && ../catkin_generated/env_cached.sh /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/setup_custom_pythonpath.sh /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp/cfg/SDKeliKlm.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/share/sdkeli_klm_udp /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/include/sdkeli_klm_udp /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/sdkeli_klm_udp
 
 devel/share/sdkeli_klm_udp/docs/SDKeliKlmConfig.dox: devel/include/sdkeli_klm_udp/SDKeliKlmConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate devel/share/sdkeli_klm_udp/docs/SDKeliKlmConfig.dox
@@ -110,10 +110,10 @@ sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/build: sdkeli_klm_udp_gencfg
 .PHONY : sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/build
 
 sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp && $(CMAKE_COMMAND) -P CMakeFiles/sdkeli_klm_udp_gencfg.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp && $(CMAKE_COMMAND) -P CMakeFiles/sdkeli_klm_udp_gencfg.dir/cmake_clean.cmake
 .PHONY : sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/clean
 
 sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : sdkeli_klm_udp/CMakeFiles/sdkeli_klm_udp_gencfg.dir/depend
 

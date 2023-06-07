@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/R2E0_node"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/R2E0_node.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/R2E0_node"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/pepperl_fuchs_r2000/R2E0_node.pdb"
   "CMakeFiles/R2E0_node.dir/src/rosnode/R2E0.cpp.o"
 )
 

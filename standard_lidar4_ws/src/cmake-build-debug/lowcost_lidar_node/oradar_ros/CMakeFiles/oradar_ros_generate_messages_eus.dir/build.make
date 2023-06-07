@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug
 
 # Utility rule file for oradar_ros_generate_messages_eus.
 
@@ -76,8 +76,8 @@ lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus: devel
 
 
 devel/share/roseus/ros/oradar_ros/manifest.l: /opt/ros/noetic/lib/geneus/gen_eus.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for oradar_ros"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel/share/roseus/ros/oradar_ros oradar_ros std_msgs
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating EusLisp manifest code for oradar_ros"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && ../../catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/geneus/cmake/../../../lib/geneus/gen_eus.py -m -o /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel/share/roseus/ros/oradar_ros oradar_ros std_msgs
 
 oradar_ros_generate_messages_eus: devel/share/roseus/ros/oradar_ros/manifest.l
 oradar_ros_generate_messages_eus: lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus
@@ -91,10 +91,10 @@ lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/bu
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/build
 
 lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && $(CMAKE_COMMAND) -P CMakeFiles/oradar_ros_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && $(CMAKE_COMMAND) -P CMakeFiles/oradar_ros_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/clean
 
 lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_eus.dir/depend
 

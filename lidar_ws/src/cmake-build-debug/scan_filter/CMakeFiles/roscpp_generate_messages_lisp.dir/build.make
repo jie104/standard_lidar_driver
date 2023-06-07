@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for roscpp_generate_messages_lisp.
 
@@ -82,10 +82,10 @@ scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/build: roscpp_generate_
 .PHONY : scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 
 scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/clean
 
 scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/lidar_ws/src /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/workspace/obstacle_and_filter/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/scan_filter /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scan_filter/CMakeFiles/roscpp_generate_messages_lisp.dir/depend
 

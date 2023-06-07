@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_hokuyo.cpp" "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/hokuyo_node.dir/src/lidar_driver_hokuyo.cpp.o"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/standard_lidar_driver/src/lidar_driver_hokuyo.cpp" "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/hokuyo_node.dir/src/lidar_driver_hokuyo.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,8 +24,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/urg_c_wrapper.dir/DependInfo.cmake"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/liburg_c.dir/DependInfo.cmake"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/urg_c_wrapper.dir/DependInfo.cmake"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/liburg_c.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

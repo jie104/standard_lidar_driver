@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/c200_lidar/c200_lidar_node"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/c200_lidar/c200_lidar_node.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/c200_lidar/c200_lidar_node"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/c200_lidar/c200_lidar_node.pdb"
   "CMakeFiles/c200_lidar_node.dir/src/c200_lidar_node.cpp.o"
 )
 

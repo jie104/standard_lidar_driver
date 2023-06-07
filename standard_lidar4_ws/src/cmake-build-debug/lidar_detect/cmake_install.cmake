@@ -1,4 +1,4 @@
-# Install script for directory: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect
+# Install script for directory: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lidar_detect
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,17 +43,17 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detect.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detect.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_detect/cmake" TYPE FILE FILES
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detectConfig.cmake"
-    "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detectConfig-version.cmake"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detectConfig.cmake"
+    "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lidar_detect/catkin_generated/installspace/lidar_detectConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_detect" TYPE FILE FILES "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/lidar_detect" TYPE FILE FILES "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lidar_detect/package.xml")
 endif()
 

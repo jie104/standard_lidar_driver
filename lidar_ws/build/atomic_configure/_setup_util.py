@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel;/home/zxj/catkin_ws/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/devel;/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel;/home/zxj/catkin_ws/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

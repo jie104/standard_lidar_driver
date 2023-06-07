@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,8 +70,8 @@ install/local/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -104,7 +104,7 @@ install/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"header\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -137,14 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lidar_detect/CMakeFiles/progress.marks
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lidar_detect/CMakeFiles/progress.marks
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/clean
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/rule:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/rule
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/rule
 .PHONY : lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ icp_calib_obastacle_lidar: lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir
 
 # fast build rule for target.
 icp_calib_obastacle_lidar/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build
 .PHONY : icp_calib_obastacle_lidar/fast
 
 # Convenience name for target.
 lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/rule:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/rule
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/rule
 .PHONY : lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/rule
 
 # Convenience name for target.
@@ -194,7 +194,7 @@ lidar_interpara_calibra: lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/rul
 
 # fast build rule for target.
 lidar_interpara_calibra/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build
 .PHONY : lidar_interpara_calibra/fast
 
 src/icp_calib_obastacle_lidar.o: src/icp_calib_obastacle_lidar.cpp.o
@@ -203,7 +203,7 @@ src/icp_calib_obastacle_lidar.o: src/icp_calib_obastacle_lidar.cpp.o
 
 # target to build an object file
 src/icp_calib_obastacle_lidar.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.o
 .PHONY : src/icp_calib_obastacle_lidar.cpp.o
 
 src/icp_calib_obastacle_lidar.i: src/icp_calib_obastacle_lidar.cpp.i
@@ -212,7 +212,7 @@ src/icp_calib_obastacle_lidar.i: src/icp_calib_obastacle_lidar.cpp.i
 
 # target to preprocess a source file
 src/icp_calib_obastacle_lidar.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.i
 .PHONY : src/icp_calib_obastacle_lidar.cpp.i
 
 src/icp_calib_obastacle_lidar.s: src/icp_calib_obastacle_lidar.cpp.s
@@ -221,7 +221,7 @@ src/icp_calib_obastacle_lidar.s: src/icp_calib_obastacle_lidar.cpp.s
 
 # target to generate assembly for a file
 src/icp_calib_obastacle_lidar.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/build.make lidar_detect/CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.s
 .PHONY : src/icp_calib_obastacle_lidar.cpp.s
 
 src/lidar_interpara_calibra.o: src/lidar_interpara_calibra.cpp.o
@@ -230,7 +230,7 @@ src/lidar_interpara_calibra.o: src/lidar_interpara_calibra.cpp.o
 
 # target to build an object file
 src/lidar_interpara_calibra.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.o
 .PHONY : src/lidar_interpara_calibra.cpp.o
 
 src/lidar_interpara_calibra.i: src/lidar_interpara_calibra.cpp.i
@@ -239,7 +239,7 @@ src/lidar_interpara_calibra.i: src/lidar_interpara_calibra.cpp.i
 
 # target to preprocess a source file
 src/lidar_interpara_calibra.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.i
 .PHONY : src/lidar_interpara_calibra.cpp.i
 
 src/lidar_interpara_calibra.s: src/lidar_interpara_calibra.cpp.s
@@ -248,7 +248,7 @@ src/lidar_interpara_calibra.s: src/lidar_interpara_calibra.cpp.s
 
 # target to generate assembly for a file
 src/lidar_interpara_calibra.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/build.make lidar_detect/CMakeFiles/lidar_interpara_calibra.dir/src/lidar_interpara_calibra.cpp.s
 .PHONY : src/lidar_interpara_calibra.cpp.s
 
 # Help Target
@@ -283,6 +283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

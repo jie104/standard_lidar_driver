@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ord_sdk.a"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ord_sdk.a"
 )

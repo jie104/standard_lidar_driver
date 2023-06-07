@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,7 +82,7 @@ install/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"header\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -103,8 +103,8 @@ rebuild_cache/fast: rebuild_cache
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -137,14 +137,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/progress.marks
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/progress.marks
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/clean
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/rule:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/rule
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/rule
 .PHONY : lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ scan_frame_test: lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame
 
 # fast build rule for target.
 scan_frame_test/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build
 .PHONY : scan_frame_test/fast
 
 get_scan_frame_test.o: get_scan_frame_test.cpp.o
@@ -188,7 +188,7 @@ get_scan_frame_test.o: get_scan_frame_test.cpp.o
 
 # target to build an object file
 get_scan_frame_test.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.o
 .PHONY : get_scan_frame_test.cpp.o
 
 get_scan_frame_test.i: get_scan_frame_test.cpp.i
@@ -197,7 +197,7 @@ get_scan_frame_test.i: get_scan_frame_test.cpp.i
 
 # target to preprocess a source file
 get_scan_frame_test.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.i
 .PHONY : get_scan_frame_test.cpp.i
 
 get_scan_frame_test.s: get_scan_frame_test.cpp.s
@@ -206,7 +206,7 @@ get_scan_frame_test.s: get_scan_frame_test.cpp.s
 
 # target to generate assembly for a file
 get_scan_frame_test.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/build.make lowcost_lidar_node/oradar_ros/sdk/samples/CMakeFiles/scan_frame_test.dir/get_scan_frame_test.cpp.s
 .PHONY : get_scan_frame_test.cpp.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

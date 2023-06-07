@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 # Utility rule file for ltme_node_genlisp.
 
@@ -63,10 +63,10 @@ lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/build: ltme_node_g
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/build
 
 lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -P CMakeFiles/ltme_node_genlisp.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node && $(CMAKE_COMMAND) -P CMakeFiles/ltme_node_genlisp.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/clean
 
 lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/ltme_node /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/ltme_node/CMakeFiles/ltme_node_genlisp.dir/depend
 

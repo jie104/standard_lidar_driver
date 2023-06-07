@@ -67,8 +67,8 @@ set(oradar_ros_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(oradar_ros_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros)
-  set(oradar_ros_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel)
+  set(oradar_ros_SOURCE_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros)
+  set(oradar_ros_DEVEL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel)
   set(oradar_ros_INSTALL_PREFIX "")
   set(oradar_ros_PREFIX ${oradar_ros_DEVEL_PREFIX})
 else()

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -82,8 +82,8 @@ install/local/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/bin/cmake-gui -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -116,7 +116,7 @@ install/fast: preinstall/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"header\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -137,14 +137,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/progress.marks
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/progress.marks
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/clean
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/rule:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/rule
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f CMakeFiles/Makefile2 lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/rule
 .PHONY : lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ ord_sdk: lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/rule
 
 # fast build rule for target.
 ord_sdk/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build
 .PHONY : ord_sdk/fast
 
 src/lidar_address.o: src/lidar_address.cpp.o
@@ -188,7 +188,7 @@ src/lidar_address.o: src/lidar_address.cpp.o
 
 # target to build an object file
 src/lidar_address.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.o
 .PHONY : src/lidar_address.cpp.o
 
 src/lidar_address.i: src/lidar_address.cpp.i
@@ -197,7 +197,7 @@ src/lidar_address.i: src/lidar_address.cpp.i
 
 # target to preprocess a source file
 src/lidar_address.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.i
 .PHONY : src/lidar_address.cpp.i
 
 src/lidar_address.s: src/lidar_address.cpp.s
@@ -206,7 +206,7 @@ src/lidar_address.s: src/lidar_address.cpp.s
 
 # target to generate assembly for a file
 src/lidar_address.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.s
 .PHONY : src/lidar_address.cpp.s
 
 src/ord_driver.o: src/ord_driver.cpp.o
@@ -215,7 +215,7 @@ src/ord_driver.o: src/ord_driver.cpp.o
 
 # target to build an object file
 src/ord_driver.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.o
 .PHONY : src/ord_driver.cpp.o
 
 src/ord_driver.i: src/ord_driver.cpp.i
@@ -224,7 +224,7 @@ src/ord_driver.i: src/ord_driver.cpp.i
 
 # target to preprocess a source file
 src/ord_driver.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.i
 .PHONY : src/ord_driver.cpp.i
 
 src/ord_driver.s: src/ord_driver.cpp.s
@@ -233,7 +233,7 @@ src/ord_driver.s: src/ord_driver.cpp.s
 
 # target to generate assembly for a file
 src/ord_driver.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.s
 .PHONY : src/ord_driver.cpp.s
 
 src/ord_driver_impl.o: src/ord_driver_impl.cpp.o
@@ -242,7 +242,7 @@ src/ord_driver_impl.o: src/ord_driver_impl.cpp.o
 
 # target to build an object file
 src/ord_driver_impl.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.o
 .PHONY : src/ord_driver_impl.cpp.o
 
 src/ord_driver_impl.i: src/ord_driver_impl.cpp.i
@@ -251,7 +251,7 @@ src/ord_driver_impl.i: src/ord_driver_impl.cpp.i
 
 # target to preprocess a source file
 src/ord_driver_impl.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.i
 .PHONY : src/ord_driver_impl.cpp.i
 
 src/ord_driver_impl.s: src/ord_driver_impl.cpp.s
@@ -260,7 +260,7 @@ src/ord_driver_impl.s: src/ord_driver_impl.cpp.s
 
 # target to generate assembly for a file
 src/ord_driver_impl.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.s
 .PHONY : src/ord_driver_impl.cpp.s
 
 src/ord_driver_net.o: src/ord_driver_net.cpp.o
@@ -269,7 +269,7 @@ src/ord_driver_net.o: src/ord_driver_net.cpp.o
 
 # target to build an object file
 src/ord_driver_net.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.o
 .PHONY : src/ord_driver_net.cpp.o
 
 src/ord_driver_net.i: src/ord_driver_net.cpp.i
@@ -278,7 +278,7 @@ src/ord_driver_net.i: src/ord_driver_net.cpp.i
 
 # target to preprocess a source file
 src/ord_driver_net.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.i
 .PHONY : src/ord_driver_net.cpp.i
 
 src/ord_driver_net.s: src/ord_driver_net.cpp.s
@@ -287,7 +287,7 @@ src/ord_driver_net.s: src/ord_driver_net.cpp.s
 
 # target to generate assembly for a file
 src/ord_driver_net.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(MAKE) -f lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/build.make lowcost_lidar_node/oradar_ros/sdk/CMakeFiles/ord_sdk.dir/src/ord_driver_net.cpp.s
 .PHONY : src/ord_driver_net.cpp.s
 
 # Help Target
@@ -327,6 +327,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

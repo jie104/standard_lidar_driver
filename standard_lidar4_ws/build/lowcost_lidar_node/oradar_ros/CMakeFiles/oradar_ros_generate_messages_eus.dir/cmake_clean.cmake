@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/share/roseus/ros/oradar_ros/manifest.l"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/share/roseus/ros/oradar_ros/manifest.l"
   "CMakeFiles/oradar_ros_generate_messages_eus"
 )
 

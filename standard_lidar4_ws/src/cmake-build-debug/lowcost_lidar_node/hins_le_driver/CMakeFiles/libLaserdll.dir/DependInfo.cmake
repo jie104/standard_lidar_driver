@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp" "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp" "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

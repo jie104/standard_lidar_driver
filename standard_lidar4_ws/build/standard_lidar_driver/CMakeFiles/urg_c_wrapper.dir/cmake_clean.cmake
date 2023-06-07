@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liburg_c_wrapper.pdb"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liburg_c_wrapper.so"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liburg_c_wrapper.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liburg_c_wrapper.so"
   "CMakeFiles/urg_c_wrapper.dir/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp.o"
 )
 

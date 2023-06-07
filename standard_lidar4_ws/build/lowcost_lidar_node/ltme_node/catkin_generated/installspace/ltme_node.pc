@@ -1,4 +1,4 @@
-prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
+prefix=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install
 
 Name: ltme_node
 Description: Description of ltme_node

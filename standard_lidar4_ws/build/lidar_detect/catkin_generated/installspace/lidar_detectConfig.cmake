@@ -67,14 +67,14 @@ set(lidar_detect_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(lidar_detect_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lidar_detect)
-  set(lidar_detect_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel)
+  set(lidar_detect_SOURCE_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lidar_detect)
+  set(lidar_detect_DEVEL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel)
   set(lidar_detect_INSTALL_PREFIX "")
   set(lidar_detect_PREFIX ${lidar_detect_DEVEL_PREFIX})
 else()
   set(lidar_detect_SOURCE_PREFIX "")
   set(lidar_detect_DEVEL_PREFIX "")
-  set(lidar_detect_INSTALL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install)
+  set(lidar_detect_INSTALL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install)
   set(lidar_detect_PREFIX ${lidar_detect_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install/lib;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

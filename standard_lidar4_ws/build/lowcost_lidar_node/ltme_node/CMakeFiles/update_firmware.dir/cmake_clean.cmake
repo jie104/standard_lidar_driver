@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ltme_node/update_firmware.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ltme_node/update_firmware.pdb"
   "CMakeFiles/update_firmware.dir/src/update_firmware.cpp.o"
 )
 

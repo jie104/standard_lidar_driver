@@ -13,10 +13,10 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
 )
 
-find_package(Eigen3 REQUIRED)
+#find_package(Eigen3 REQUIRED)
 find_package(glog REQUIRED)
-include_directories(${EIGEN3_INCLUDE_DIRS})
-
+#include_directories(${EIGEN3_INCLUDE_DIRS})
+include_directories("/usr/local/include/eigen3")
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
 

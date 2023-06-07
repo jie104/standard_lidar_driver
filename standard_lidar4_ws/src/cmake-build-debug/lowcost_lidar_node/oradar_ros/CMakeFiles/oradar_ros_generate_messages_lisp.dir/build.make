@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug
 
 # Utility rule file for oradar_ros_generate_messages_lisp.
 
@@ -82,10 +82,10 @@ lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/b
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/build
 
 lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && $(CMAKE_COMMAND) -P CMakeFiles/oradar_ros_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros && $(CMAKE_COMMAND) -P CMakeFiles/oradar_ros_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/clean
 
 lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/oradar_ros/CMakeFiles/oradar_ros_generate_messages_lisp.dir/depend
 

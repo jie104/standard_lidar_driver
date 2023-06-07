@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/lidar_detect/icp_calib_obastacle_lidar"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/lidar_detect/icp_calib_obastacle_lidar.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/lidar_detect/icp_calib_obastacle_lidar"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/lidar_detect/icp_calib_obastacle_lidar.pdb"
   "CMakeFiles/icp_calib_obastacle_lidar.dir/src/icp_calib_obastacle_lidar.cpp.o"
 )
 

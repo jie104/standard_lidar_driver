@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/standard_lidar_driver/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp" "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/urg_c_wrapper.dir/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp.o"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/standard_lidar_driver/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp" "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/standard_lidar_driver/CMakeFiles/urg_c_wrapper.dir/src/standard_lidar_protocol/UST10LX/urg_c_wrapper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

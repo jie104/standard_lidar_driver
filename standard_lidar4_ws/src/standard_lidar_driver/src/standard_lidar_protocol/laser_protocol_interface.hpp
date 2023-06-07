@@ -6,6 +6,7 @@
 #define SROS_LASER_PROTOCOL_INTERFACE_HPP
 
 #include <boost/circular_buffer.hpp>
+//#include "core/msg/laser_scan_msg.hpp"
 
 #ifdef ROS_NODE
 
@@ -13,6 +14,7 @@
 #include <chrono>
 
 typedef sensor_msgs::LaserScan ScanMsg;
+
 #else
 #include <core/msg/laser_scan_msg.hpp>
 typedef sros::core::LaserScanMsg ScanMsg;

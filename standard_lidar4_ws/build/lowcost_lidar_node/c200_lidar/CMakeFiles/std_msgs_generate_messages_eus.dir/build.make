@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 # Utility rule file for std_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/buil
 .PHONY : lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 
 lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/clean
 
 lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/c200_lidar /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/c200_lidar/CMakeFiles/std_msgs_generate_messages_eus.dir/depend
 

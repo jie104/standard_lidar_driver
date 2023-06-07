@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/libliburg_c.pdb"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/libliburg_c.so"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/libliburg_c.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/libliburg_c.so"
   "CMakeFiles/liburg_c.dir/src/standard_lidar_protocol/UST10LX/urg_c/src/urg_connection.c.o"
   "CMakeFiles/liburg_c.dir/src/standard_lidar_protocol/UST10LX/urg_c/src/urg_debug.c.o"
   "CMakeFiles/liburg_c.dir/src/standard_lidar_protocol/UST10LX/urg_c/src/urg_ring_buffer.c.o"

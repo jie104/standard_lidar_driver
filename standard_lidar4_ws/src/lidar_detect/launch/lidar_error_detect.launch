@@ -1,7 +1,7 @@
 <launch>
     <!--    添加倍加福雷达R2000-->
-    <include file="$(find pepperl_fuchs_r2000)/launch/r2000.launch"/>
-    <include file="$(find ltme_node)/launch/ltme02a.launch"/>
+<!--    <include file="$(find pepperl_fuchs_r2000)/launch/r2000.launch"/>-->
+
 <!--    <include file="$(find ltme_node)/launch/lt-r1.launch"/>-->
     <!--    添加keli安全雷达1-->
 <!--        <include file="$(find sdkeli_klm_udp)/launch/sdkeli_klm_udp_with_1_lidar.launch"/>-->
@@ -55,7 +55,13 @@
 <!--        <param name="port" type="int" value="2368"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
 <!--    </node>-->
 
-<!--     <node name="SIMI_2" pkg="standard_lidar_driver" type="simi_node_2"  >-->
+    <!--    兴颂雷达-->
+     <node name="HINSON_LE" pkg="standard_lidar_driver" type="hinson_le"  >
+        <param name="ip" type="string" value="192.168.23.100" />   <!--传感器话题-->
+        <param name="port" type="int" value="8080"/>
+    </node>
+
+    <!--     <node name="SIMI_2" pkg="standard_lidar_driver" type="simi_node_2"  >-->
 <!--        <param name="ip" type="string" value="192.168.71.102"/>   &lt;!&ndash;传感器话题&ndash;&gt;-->
 <!--        <param name="port" type="int" value="2368"/>    &lt;!&ndash;循环次数&ndash;&gt;-->
 <!--    </node>-->

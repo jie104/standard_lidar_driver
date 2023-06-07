@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;std_msgs;tf".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "standard_lidar_driver"
-PROJECT_SPACE_DIR = "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/devel"
+PROJECT_SPACE_DIR = "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/devel"
 PROJECT_VERSION = "0.0.0"

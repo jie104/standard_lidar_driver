@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build
 
 # Include any dependencies generated for this target.
 include lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/depend.make
@@ -58,17 +58,17 @@ include lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/progress.ma
 include lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/flags.make
 
 lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/flags.make
-lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o -c /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp
+lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o -c /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp
 
 lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.i"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp > CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp > CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.i
 
 lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.s"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp -o CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver/src/hins/xingsong_driver.cpp -o CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.s
 
 # Object files for target libLaserdll
 libLaserdll_OBJECTS = \
@@ -77,23 +77,23 @@ libLaserdll_OBJECTS = \
 # External object files for target libLaserdll
 libLaserdll_EXTERNAL_OBJECTS =
 
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/build.make
-/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a"
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -P CMakeFiles/libLaserdll.dir/cmake_clean_target.cmake
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libLaserdll.dir/link.txt --verbose=$(VERBOSE)
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/src/hins/xingsong_driver.cpp.o
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/build.make
+/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liblibLaserdll.a: lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liblibLaserdll.a"
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -P CMakeFiles/libLaserdll.dir/cmake_clean_target.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libLaserdll.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/build: /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/liblibLaserdll.a
+lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/build: /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/liblibLaserdll.a
 
 .PHONY : lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/build
 
 lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -P CMakeFiles/libLaserdll.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver && $(CMAKE_COMMAND) -P CMakeFiles/libLaserdll.dir/cmake_clean.cmake
 .PHONY : lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/clean
 
 lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/hins_le_driver /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/build/lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lowcost_lidar_node/hins_le_driver/CMakeFiles/libLaserdll.dir/depend
 

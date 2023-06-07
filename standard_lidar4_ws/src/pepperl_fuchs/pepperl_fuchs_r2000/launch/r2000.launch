@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <arg name="frame_id" default="scan"/>
-  <arg name="scanner_ip" default="192.168.10.165"/>
+  <arg name="scanner_ip" default="192.168.23.165"/>
   <arg name="scan_frequency" default="20"/>
   <arg name="samples_per_scan" default="3600"/>
 

@@ -170,6 +170,10 @@ add_executable(hokuyo_node src/lidar_driver_hokuyo.cpp)
 add_executable(free_optics_node src/free_optics.cpp)
 add_executable(precision_anaysis_node src/data_anaysis/precision_anaysis.cpp)
 
+add_executable(hinson_le src/hinson_le.cpp  core/util/time.cpp core/util/utils.cpp)
+
+
+
 add_library(data_anaysis SHARED src/data_anaysis/data_anaysis.cpp)
 
 
@@ -206,6 +210,11 @@ target_link_libraries(simi_node_2
 		)
 
 
+target_link_libraries(hinson_le
+		${catkin_LIBRARIES}
+		glog
+
+		)
 
 
 

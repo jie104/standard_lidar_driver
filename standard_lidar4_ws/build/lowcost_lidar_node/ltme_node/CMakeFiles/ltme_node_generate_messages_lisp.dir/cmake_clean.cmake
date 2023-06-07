@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QueryFirmwareVersion.lisp"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QueryHardwareVersion.lisp"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QuerySerial.lisp"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QueryFirmwareVersion.lisp"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QueryHardwareVersion.lisp"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/share/common-lisp/ros/ltme_node/srv/QuerySerial.lisp"
   "CMakeFiles/ltme_node_generate_messages_lisp"
 )
 

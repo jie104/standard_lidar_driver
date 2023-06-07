@@ -1,4 +1,4 @@
-prefix=/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install
+prefix=/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install
 
 Name: hins_le_driver
 Description: Description of hins_le_driver

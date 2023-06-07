@@ -67,14 +67,14 @@ set(sdkeli_klm_udp_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(sdkeli_klm_udp_SOURCE_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp)
-  set(sdkeli_klm_udp_DEVEL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel)
+  set(sdkeli_klm_udp_SOURCE_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp)
+  set(sdkeli_klm_udp_DEVEL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel)
   set(sdkeli_klm_udp_INSTALL_PREFIX "")
   set(sdkeli_klm_udp_PREFIX ${sdkeli_klm_udp_DEVEL_PREFIX})
 else()
   set(sdkeli_klm_udp_SOURCE_PREFIX "")
   set(sdkeli_klm_udp_DEVEL_PREFIX "")
-  set(sdkeli_klm_udp_INSTALL_PREFIX /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/install)
+  set(sdkeli_klm_udp_INSTALL_PREFIX /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/install)
   set(sdkeli_klm_udp_PREFIX ${sdkeli_klm_udp_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(sdkeli_klm_udp_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/include;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp/include;/usr/include " STREQUAL " ")
+if(NOT "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/include;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp/include;/usr/include " STREQUAL " ")
   set(sdkeli_klm_udp_INCLUDE_DIRS "")
-  set(_include_dirs "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/include;/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp/include;/usr/include")
+  set(_include_dirs "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/include;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp/include;/usr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/include
         message(FATAL_ERROR "Project 'sdkeli_klm_udp' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'sdkeli_klm_udp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/sdkeli_klm_udp/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'sdkeli_klm_udp' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/sdkeli_klm_udp/${idir}'.  ${_report}")
     endif()
     _list_append_unique(sdkeli_klm_udp_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib;/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

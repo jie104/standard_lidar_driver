@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"oradar_ros\"
 
-CXX_INCLUDES = -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/.. -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/sdk/samples -I/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros/sdk/include
+CXX_INCLUDES = -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/.. -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/oradar_ros/sdk/samples -I/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/lowcost_lidar_node/oradar_ros/sdk/include
 
 CXX_FLAGS =  -std=c++11 -g -std=c++11
 

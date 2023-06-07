@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ord_sdk.a"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ord_sdk.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ord_sdk.a"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ord_sdk.pdb"
   "CMakeFiles/ord_sdk.dir/src/lidar_address.cpp.o"
   "CMakeFiles/ord_sdk.dir/src/ord_driver.cpp.o"
   "CMakeFiles/ord_sdk.dir/src/ord_driver_impl.cpp.o"

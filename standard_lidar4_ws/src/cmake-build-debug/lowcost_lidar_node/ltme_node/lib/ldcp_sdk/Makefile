@@ -58,19 +58,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,42 +78,42 @@ CMAKE_BINARY_DIR = /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/sr
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
 list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\" \"header\""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
 .PHONY : list_install_components
 
 # Special rule for the target list_install_components
@@ -124,7 +124,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -135,7 +135,7 @@ test/fast: test
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -146,7 +146,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/opt/clion/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -156,14 +156,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/ltme_node/lib/ldcp_sdk//CMakeFiles/progress.marks
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/lowcost_lidar_node/ltme_node/lib/ldcp_sdk//CMakeFiles/progress.marks
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/clean
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/clean
 .PHONY : clean
 
 # The main clean target
@@ -173,22 +173,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/preinstall
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/rule:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/rule
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/rule
 .PHONY : lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ ldcp_sdk: lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/rule
 
 # fast build rule for target.
 ldcp_sdk/fast:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build
 .PHONY : ldcp_sdk/fast
 
 src/bootloader.o: src/bootloader.cpp.o
@@ -207,7 +207,7 @@ src/bootloader.o: src/bootloader.cpp.o
 
 # target to build an object file
 src/bootloader.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.o
 .PHONY : src/bootloader.cpp.o
 
 src/bootloader.i: src/bootloader.cpp.i
@@ -216,7 +216,7 @@ src/bootloader.i: src/bootloader.cpp.i
 
 # target to preprocess a source file
 src/bootloader.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.i
 .PHONY : src/bootloader.cpp.i
 
 src/bootloader.s: src/bootloader.cpp.s
@@ -225,7 +225,7 @@ src/bootloader.s: src/bootloader.cpp.s
 
 # target to generate assembly for a file
 src/bootloader.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.s
 .PHONY : src/bootloader.cpp.s
 
 src/device.o: src/device.cpp.o
@@ -234,7 +234,7 @@ src/device.o: src/device.cpp.o
 
 # target to build an object file
 src/device.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.o
 .PHONY : src/device.cpp.o
 
 src/device.i: src/device.cpp.i
@@ -243,7 +243,7 @@ src/device.i: src/device.cpp.i
 
 # target to preprocess a source file
 src/device.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.i
 .PHONY : src/device.cpp.i
 
 src/device.s: src/device.cpp.s
@@ -252,7 +252,7 @@ src/device.s: src/device.cpp.s
 
 # target to generate assembly for a file
 src/device.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device.cpp.s
 .PHONY : src/device.cpp.s
 
 src/device_base.o: src/device_base.cpp.o
@@ -261,7 +261,7 @@ src/device_base.o: src/device_base.cpp.o
 
 # target to build an object file
 src/device_base.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.o
 .PHONY : src/device_base.cpp.o
 
 src/device_base.i: src/device_base.cpp.i
@@ -270,7 +270,7 @@ src/device_base.i: src/device_base.cpp.i
 
 # target to preprocess a source file
 src/device_base.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.i
 .PHONY : src/device_base.cpp.i
 
 src/device_base.s: src/device_base.cpp.s
@@ -279,7 +279,7 @@ src/device_base.s: src/device_base.cpp.s
 
 # target to generate assembly for a file
 src/device_base.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.s
 .PHONY : src/device_base.cpp.s
 
 src/device_info.o: src/device_info.cpp.o
@@ -288,7 +288,7 @@ src/device_info.o: src/device_info.cpp.o
 
 # target to build an object file
 src/device_info.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.o
 .PHONY : src/device_info.cpp.o
 
 src/device_info.i: src/device_info.cpp.i
@@ -297,7 +297,7 @@ src/device_info.i: src/device_info.cpp.i
 
 # target to preprocess a source file
 src/device_info.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.i
 .PHONY : src/device_info.cpp.i
 
 src/device_info.s: src/device_info.cpp.s
@@ -306,7 +306,7 @@ src/device_info.s: src/device_info.cpp.s
 
 # target to generate assembly for a file
 src/device_info.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/device_info.cpp.s
 .PHONY : src/device_info.cpp.s
 
 src/location.o: src/location.cpp.o
@@ -315,7 +315,7 @@ src/location.o: src/location.cpp.o
 
 # target to build an object file
 src/location.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.o
 .PHONY : src/location.cpp.o
 
 src/location.i: src/location.cpp.i
@@ -324,7 +324,7 @@ src/location.i: src/location.cpp.i
 
 # target to preprocess a source file
 src/location.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.i
 .PHONY : src/location.cpp.i
 
 src/location.s: src/location.cpp.s
@@ -333,7 +333,7 @@ src/location.s: src/location.cpp.s
 
 # target to generate assembly for a file
 src/location.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/location.cpp.s
 .PHONY : src/location.cpp.s
 
 src/session.o: src/session.cpp.o
@@ -342,7 +342,7 @@ src/session.o: src/session.cpp.o
 
 # target to build an object file
 src/session.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.o
 .PHONY : src/session.cpp.o
 
 src/session.i: src/session.cpp.i
@@ -351,7 +351,7 @@ src/session.i: src/session.cpp.i
 
 # target to preprocess a source file
 src/session.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.i
 .PHONY : src/session.cpp.i
 
 src/session.s: src/session.cpp.s
@@ -360,7 +360,7 @@ src/session.s: src/session.cpp.s
 
 # target to generate assembly for a file
 src/session.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/session.cpp.s
 .PHONY : src/session.cpp.s
 
 src/transport.o: src/transport.cpp.o
@@ -369,7 +369,7 @@ src/transport.o: src/transport.cpp.o
 
 # target to build an object file
 src/transport.cpp.o:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.o
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.o
 .PHONY : src/transport.cpp.o
 
 src/transport.i: src/transport.cpp.i
@@ -378,7 +378,7 @@ src/transport.i: src/transport.cpp.i
 
 # target to preprocess a source file
 src/transport.cpp.i:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.i
 .PHONY : src/transport.cpp.i
 
 src/transport.s: src/transport.cpp.s
@@ -387,7 +387,7 @@ src/transport.s: src/transport.cpp.s
 
 # target to generate assembly for a file
 src/transport.cpp.s:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(MAKE) $(MAKESILENT) -f lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/build.make lowcost_lidar_node/ltme_node/lib/ldcp_sdk/CMakeFiles/ldcp_sdk.dir/src/transport.cpp.s
 .PHONY : src/transport.cpp.s
 
 # Help Target
@@ -436,6 +436,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

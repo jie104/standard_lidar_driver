@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ldcp_sdk.a"
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/lib/ldcp_sdk.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ldcp_sdk.a"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/lib/ldcp_sdk.pdb"
   "CMakeFiles/ldcp_sdk.dir/src/bootloader.cpp.o"
   "CMakeFiles/ldcp_sdk.dir/src/device.cpp.o"
   "CMakeFiles/ldcp_sdk.dir/src/device_base.cpp.o"

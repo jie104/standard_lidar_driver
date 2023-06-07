@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/standard_lidar4_ws/devel/share/common-lisp/ros/hins_le_driver/srv/hins_srv.lisp"
+  "/home/zxj/my_code/standard_lidar_driver/standard_lidar4_ws/devel/share/common-lisp/ros/hins_le_driver/srv/hins_srv.lisp"
   "CMakeFiles/hins_le_driver_generate_messages_lisp"
 )
 
