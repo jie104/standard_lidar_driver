@@ -1,0 +1,28 @@
+//
+// Created by lhx on 16-5-27.
+//
+
+#ifndef SROS_VERSION_H
+#define SROS_VERSION_H
+
+#define VERSION(major, minor, patch) ((major * 1000 * 1000) + minor * 1000 + patch)
+
+constexpr uint32_t SROS_MAJOR_VERSION = @SROS_MAJOR_VERSION@;
+constexpr uint32_t SROS_MINOR_VERSION = @SROS_MINOR_VERSION@;
+constexpr uint32_t SROS_PATCH_VERSION = @SROS_PATCH_VERSION@;
+
+constexpr uint32_t SROS_VERSION = VERSION(@SROS_MAJOR_VERSION@, @SROS_MINOR_VERSION@, @SROS_PATCH_VERSION@);
+
+constexpr char SROS_VERSION_STR [] = {
+    "@SROS_VERSION@@SROS_ALPHA_VERSION_STR@(@GIT_VERSION_SHA1_SHORT@)[@GIT_BRANCH@] " __DATE__ " " __TIME__
+};
+
+constexpr char GIT_VERSION_STR [] = {
+    "@GIT_VERSION_SHA1@"
+};
+
+constexpr char COMPILER_INFO_STR [] = {
+    "@COMPILER_INFO@"
+};
+
+#endif //SROS_VERSION_H

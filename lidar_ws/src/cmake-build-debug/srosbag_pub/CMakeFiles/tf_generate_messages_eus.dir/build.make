@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for tf_generate_messages_eus.
 
@@ -82,10 +82,10 @@ srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/build: tf_generate_messages_
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/build
 
 srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/clean
 
 srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srosbag_pub/CMakeFiles/tf_generate_messages_eus.dir/depend
 

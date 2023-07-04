@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend.make
@@ -78,16 +78,16 @@ include standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/flags.make
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/flags.make
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o: ../standard_lidar_driver/src/lidar_driver_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o -c /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.o -c /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp > CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.i
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver/src/lidar_driver_node.cpp -o CMakeFiles/lidar_driver_node.dir/src/lidar_driver_node.cpp.s
 
 # Object files for target lidar_driver_node
 lidar_driver_node_OBJECTS = \
@@ -143,8 +143,8 @@ devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/lib
 devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
 devel/lib/standard_lidar_driver/lidar_driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/standard_lidar_driver/lidar_driver_node: standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/standard_lidar_driver/lidar_driver_node"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../devel/lib/standard_lidar_driver/lidar_driver_node"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lidar_driver_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build: devel/lib/standard_lidar_driver/lidar_driver_node
@@ -152,10 +152,10 @@ standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build: devel/lib/standard
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/build
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver && $(CMAKE_COMMAND) -P CMakeFiles/lidar_driver_node.dir/cmake_clean.cmake
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/clean
 
 standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/standard_lidar_driver /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : standard_lidar_driver/CMakeFiles/lidar_driver_node.dir/depend
 

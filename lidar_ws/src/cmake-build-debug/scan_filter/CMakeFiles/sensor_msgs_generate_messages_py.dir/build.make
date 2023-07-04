@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for sensor_msgs_generate_messages_py.
 
@@ -82,10 +82,10 @@ scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build: sensor_msgs_g
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 
 scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 
 scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/scan_filter /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/scan_filter /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : scan_filter/CMakeFiles/sensor_msgs_generate_messages_py.dir/depend
 

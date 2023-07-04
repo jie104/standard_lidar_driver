@@ -1,0 +1,9 @@
+{
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "files.associations": {
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "iomanip": "cpp"
+  }
+}

@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for dynamic_reconfigure_generate_messages_nodejs.
 
@@ -82,10 +82,10 @@ wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build: 
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/build
 
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/clean
 
 wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wj_716_lidar/CMakeFiles/dynamic_reconfigure_generate_messages_nodejs.dir/depend
 

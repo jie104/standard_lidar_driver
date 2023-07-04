@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Utility rule file for wj_716_lidar_gencfg.
 
@@ -79,8 +79,8 @@ wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg: devel/lib/python3/dist-packages/wj_
 devel/include/wj_716_lidar/wj_716_lidarConfig.h: ../wj_716_lidar/cfg/wj_716_lidar.cfg
 devel/include/wj_716_lidar/wj_716_lidarConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
 devel/include/wj_716_lidar/wj_716_lidarConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/wj_716_lidar.cfg: /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar/wj_716_lidarConfig.h /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && ../catkin_generated/env_cached.sh /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/setup_custom_pythonpath.sh /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar/cfg/wj_716_lidar.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/share/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/wj_716_lidar.cfg: /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar/wj_716_lidarConfig.h /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar/cfg/wj_716_lidarConfig.py"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && ../catkin_generated/env_cached.sh /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/setup_custom_pythonpath.sh /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar/cfg/wj_716_lidar.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/share/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/include/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/devel/lib/python3/dist-packages/wj_716_lidar
 
 devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox: devel/include/wj_716_lidar/wj_716_lidarConfig.h
 	@$(CMAKE_COMMAND) -E touch_nocreate devel/share/wj_716_lidar/docs/wj_716_lidarConfig.dox
@@ -110,10 +110,10 @@ wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build: wj_716_lidar_gencfg
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/build
 
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/wj_716_lidar_gencfg.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar && $(CMAKE_COMMAND) -P CMakeFiles/wj_716_lidar_gencfg.dir/cmake_clean.cmake
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/clean
 
 wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : wj_716_lidar/CMakeFiles/wj_716_lidar_gencfg.dir/depend
 

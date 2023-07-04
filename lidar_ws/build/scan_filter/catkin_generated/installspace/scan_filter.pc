@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/install
+prefix=/home/zxj/my_code/standard_lidar_driver/lidar_ws/install
 
 Name: scan_filter
 Description: Description of scan_filter

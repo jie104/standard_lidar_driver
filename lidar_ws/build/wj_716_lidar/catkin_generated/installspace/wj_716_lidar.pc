@@ -1,4 +1,4 @@
-prefix=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/install
+prefix=/home/zxj/my_code/standard_lidar_driver/lidar_ws/install
 
 Name: wj_716_lidar
 Description: Description of wj_716_lidar

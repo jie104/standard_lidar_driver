@@ -62,10 +62,10 @@ RM = /home/zxj/下载/CLion-2021.1.3/clion-2021.1.3/bin/cmake/linux/bin/cmake -E
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src
+CMAKE_SOURCE_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
+CMAKE_BINARY_DIR = /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include srosbag_pub/CMakeFiles/srosbag_pub.dir/depend.make
@@ -78,55 +78,55 @@ include srosbag_pub/CMakeFiles/srosbag_pub.dir/flags.make
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o: srosbag_pub/CMakeFiles/srosbag_pub.dir/flags.make
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o: ../srosbag_pub/src/srosbag_pub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o -c /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.o -c /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.i"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp > CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp > CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.i
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.s"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp -o CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/srosbag_pub.cpp -o CMakeFiles/srosbag_pub.dir/src/srosbag_pub.cpp.s
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o: srosbag_pub/CMakeFiles/srosbag_pub.dir/flags.make
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o: ../srosbag_pub/src/bag_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o -c /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o -c /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.i"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp > CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp > CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.i
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.s"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp -o CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_module.cpp -o CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.s
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o: srosbag_pub/CMakeFiles/srosbag_pub.dir/flags.make
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o: ../srosbag_pub/src/bag_pub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o -c /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o -c /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.i"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp > CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp > CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.i
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.s"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp -o CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/bag_pub.cpp -o CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.s
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o: srosbag_pub/CMakeFiles/srosbag_pub.dir/flags.make
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o: ../srosbag_pub/src/keyboard_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o -c /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o -c /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.i"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp > CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.i
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp > CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.i
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.s"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp -o CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.s
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub/src/keyboard_manager.cpp -o CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.s
 
 # Object files for target srosbag_pub
 srosbag_pub_OBJECTS = \
@@ -167,8 +167,8 @@ devel/lib/srosbag_pub/srosbag_pub: /usr/lib/x86_64-linux-gnu/libboost_thread.so.
 devel/lib/srosbag_pub/srosbag_pub: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 devel/lib/srosbag_pub/srosbag_pub: devel/lib/libsros_bag.a
 devel/lib/srosbag_pub/srosbag_pub: srosbag_pub/CMakeFiles/srosbag_pub.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../devel/lib/srosbag_pub/srosbag_pub"
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srosbag_pub.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../devel/lib/srosbag_pub/srosbag_pub"
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/srosbag_pub.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 srosbag_pub/CMakeFiles/srosbag_pub.dir/build: devel/lib/srosbag_pub/srosbag_pub
@@ -176,10 +176,10 @@ srosbag_pub/CMakeFiles/srosbag_pub.dir/build: devel/lib/srosbag_pub/srosbag_pub
 .PHONY : srosbag_pub/CMakeFiles/srosbag_pub.dir/build
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/clean:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/srosbag_pub.dir/cmake_clean.cmake
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub && $(CMAKE_COMMAND) -P CMakeFiles/srosbag_pub.dir/cmake_clean.cmake
 .PHONY : srosbag_pub/CMakeFiles/srosbag_pub.dir/clean
 
 srosbag_pub/CMakeFiles/srosbag_pub.dir/depend:
-	cd /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub /home/zxj/桌面/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub/CMakeFiles/srosbag_pub.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/zxj/my_code/standard_lidar_driver/lidar_ws/src /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/srosbag_pub /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub /home/zxj/my_code/standard_lidar_driver/lidar_ws/src/cmake-build-debug/srosbag_pub/CMakeFiles/srosbag_pub.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : srosbag_pub/CMakeFiles/srosbag_pub.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/lib/srosbag_pub/srosbag_pub"
-  "/home/zxj/workspace/obstacle_and_filter/lidar_ws/devel/lib/srosbag_pub/srosbag_pub.pdb"
+  "/home/zxj/my_code/standard_lidar_driver/lidar_ws/devel/lib/srosbag_pub/srosbag_pub"
+  "/home/zxj/my_code/standard_lidar_driver/lidar_ws/devel/lib/srosbag_pub/srosbag_pub.pdb"
   "CMakeFiles/srosbag_pub.dir/src/bag_module.cpp.o"
   "CMakeFiles/srosbag_pub.dir/src/bag_pub.cpp.o"
   "CMakeFiles/srosbag_pub.dir/src/keyboard_manager.cpp.o"
