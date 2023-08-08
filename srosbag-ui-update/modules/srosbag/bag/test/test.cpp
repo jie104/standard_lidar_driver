@@ -267,14 +267,14 @@ int main(int argc, char **argv) {
                      }
 
                      LOG(INFO) << laserIn.topic_ << ": " << laserIn.time_ << ", " << laserOut.header.stamp.toSec();
-                     ros_bag.write("TOPIC_LASER", laserOut.header.stamp, laserOut);
+                     ros_bag.write("UST_LEFT", laserOut.header.stamp, laserOut);
 
                  }
              },
-             "TOPIC_LASER");
+             "UST_LEFT");
 
 
-  bag->playBack("/home/zxj/data/sbag/2023-07-04-16-11-28.sbag", true, false);
+  bag->playBack("/home/zxj/data/sbag/2023-03-21-12-49-12.sbag", true, false);
 
   std::cout << "转换完成" << std::endl;
 

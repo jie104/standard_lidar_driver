@@ -11,6 +11,11 @@
 EXPORT_MSG("TOPIC_LASER",sros::core::LaserScanMsg )
 EXPORT_MSG("FIRST_SCAN",sros::core::LaserScanMsg )
 EXPORT_MSG("SECOND_SCAN",sros::core::LaserScanMsg )
+EXPORT_MSG("KELI_SCAN",sros::core::LaserScanMsg )
+
+EXPORT_MSG("UST_LEFT",sros::core::LaserScanMsg )
+EXPORT_MSG("UST_RIGHT",sros::core::LaserScanMsg )
+EXPORT_MSG("UST_BACK",sros::core::LaserScanMsg )
 
 //EXPORT_MSG("FIRST_SCAN", sros::core::LaserScanMsg)
 //EXPORT_MSG("SECOND_SCAN", sros::core::LaserScanMsg)
