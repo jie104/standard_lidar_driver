@@ -81,7 +81,7 @@ Visualization Manager:
       Size (Pixels): 3
       Size (m): 0.009999999776482582
       Style: Flat Squares
-      Topic: /r2000_node/scan
+      Topic: /oradar_node_1/scan
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: true
@@ -415,7 +415,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/XYOrbit
-      Distance: 5.582444190979004
+      Distance: 7.709082126617432
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -423,17 +423,17 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 4.01856803894043
-        Y: -1.978893756866455
-        Z: 5.185604095458984e-06
+        X: -0.11787053942680359
+        Y: -1.641286849975586
+        Z: 4.231929779052734e-06
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.519796371459961
+      Pitch: 1.5697963237762451
       Target Frame: <Fixed Frame>
-      Yaw: 4.285459518432617
+      Yaw: 4.095455646514893
     Saved: ~
 Window Geometry:
   Displays:

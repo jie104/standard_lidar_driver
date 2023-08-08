@@ -22,8 +22,8 @@
     <!--    添加万集雷达-->
     <!-- <node name="WANJI" pkg="standard_lidar_driver" type="wanji_node"  /> -->
     <!--    添加奥锐达雷达-->
-    <node name="ORADAR" pkg="standard_lidar_driver" type="oradar_node">
-        <param name="ip" type="string" value="192.168.71.100"/>   <!--传感器话题-->
+    <node name="ORADAR" pkg="standard_lidar_driver" type="oradar_node_1">
+        <param name="ip" type="string" value="192.168.1.100"/>   <!--传感器话题-->
         <param name="port" type="int" value="2007"/>    <!--循环次数-->
     </node>
 
